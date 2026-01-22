@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrim Cauthon – Likovi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <nav id="main-nav" class="secondary-nav">
+  <a href="index.html" class="logo">
+    <img src="slike/logo.png" alt="Arhiva Aes Sedai">
+    <span>Arhiva Aes Sedai</span>
+  </a>
+
+  <ul class="nav-links">
+
+    <li>
+      <a href="index.html">Početna</a>
+    </li>
+
+    <li class="dropdown">
+      <a href="knjige.html">Knjige</a>
+      <ul class="dropdown-content">
+        <li><a href="oko-svijeta.html">Oko svijeta</a></li>
+        <li><a href="veliki-lov.html">Veliki lov</a></li>
+        <li><a href="ponovorodeni-zmaj.html">Ponovorođeni Zmaj</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+          <a href="likovi.html">Likovi</a>
+          <ul class="dropdown-content">
+            <li><a href="rand.html">Rand al’Thor</a></li>
+            <li><a href="perrin.html">Perrin Aybara</a></li>
+            <li><a href="mat.html">Matrim Cauthon</a></li>
+            <li><a href="moiraine.html">Moiraine Damodred</a></li>
+            <li><a href="mracni.html">Mračni</a></li>
+          </ul>
+        </li>
+
+    <li class="dropdown">
+      <a href="svjetovi.html">Svjetovi</a>
+
+      <ul class="dropdown-content">
+
+        <li><a href="svjetovi.html">Pregled svjetova</a></li>
+
+       <li class="dropdown nested">
+         <a href="aes-sedai.html">Aes Sedai</a>
+         <a href="tar-valon.html">Tar Valon</a>
+          <a href="one-power.html">One Power</a>
+          <ul class="dropdown-content">
+            <li><a href="saidar.html">Saidar</a></li>
+            <li><a href="saidin.html">Saidin</a></li>
+          </ul>
+        </li>
+        <li class="dropdown nested">
+          <a href="svjetovi-nacije.html">Nacije</a>
+          <ul class="dropdown-content">
+            <li><a href="andor.html">Andor</a></li>
+            <li><a href="seanchan.html">Seanchan</a></li>
+            <li><a href="aiel.html">Aiel</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </li>
+
+    <li><a href="o-projektu.html">O projektu</a></li>
+
+  </ul>
+</nav>
+
+<header class="knjige-header">
+  <h1>Matrim Cauthon</h1>
+  <p>Kockar</p>
+</header>
+
+<main class="lik-container" data-section="likovi">
+  <article class="lik-tekst">
+    <h2>Izgled i osobnost</h2>
+    <p>Mat je visoki mladić, smeđe kose i očiju. Poznat je po sreći u igrama i ratovima, a njegov šarm i humor ga često izvlače iz nevolje. 
+    Unatoč neozbiljnom izgledu, izuzetno je lojalan.</p>
+
+    <h3>Zanimljivosti</h3>
+    <ul>
+      <li>Nositelj Roga Valerea</li>
+      <li>Ima sjećanja ratnika iz prošlih života</li>
+      <li>Predvodi Crvenu ruku</li>
+    </ul>
+    
+    <section class="video-sekcija">
+    <h2>Mat puše u Rog Valerea</h2>
+
+    <div class="iframe-okvir">
+        <iframe 
+            src="https://www.youtube.com/embed/75SaySGDMoA"
+            title="YouTube video player"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <button onclick="alert('Hvala što ste pogledali video!')">
+        Klikni nakon gledanja
+    </button>
+</section>
+
+  </article>
+
+  <aside class="infobox" data-type="infobox-lik">
+    <img src="slike/likovi/mat.jpg" alt="Matrim Cauthon">
+    <table>
+      <thead><tr><th colspan="2">Matrim Cauthon</th></tr></thead>
+      <tbody>
+        <tr><th>Puno ime</th><td>Matrim Cauthon</td></tr>
+        <tr><th>Nadimak</th><td>Mat</td></tr>
+        <tr><th>Rodno mjesto</th><td>Emondovo Polje</td></tr>
+        <tr><th>Posebnost</th><td>Sreća i sjećanja iz prošlosti</td></tr>
+        <tr><th>Simbol</th><td>Kocke</td></tr>
+        <tr><th rowspan="2">Oružje</th><td>Rog Valerea</td></tr>
+        <tr><td>Koplje iz Shadar Logotha</td></tr>
+        <tr><th colspan="2">Vođa “Crvene ruke”</th></tr>
+      </tbody>
+    </table>
+  </aside>
+</main>
+
+<footer>
+  <p>Arhiva Aes Sedai | Izradio fan svijeta svjetlosti 🔥</p>
+</footer>
+
+</body>
+</html>

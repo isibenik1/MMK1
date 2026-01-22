@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andor - Arhiva Aes Sedai</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <nav id="main-nav" class="secondary-nav">
+  <a href="index.html" class="logo">
+    <img src="slike/logo.png" alt="Arhiva Aes Sedai">
+    <span>Arhiva Aes Sedai</span>
+  </a>
+
+  <ul class="nav-links">
+
+    <li>
+      <a href="index.html">Početna</a>
+    </li>
+
+    <li class="dropdown">
+      <a href="knjige.html">Knjige</a>
+      <ul class="dropdown-content">
+        <li><a href="oko-svijeta.html">Oko svijeta</a></li>
+        <li><a href="veliki-lov.html">Veliki lov</a></li>
+        <li><a href="ponovorodeni-zmaj.html">Ponovorođeni Zmaj</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+          <a href="likovi.html">Likovi</a>
+          <ul class="dropdown-content">
+            <li><a href="rand.html">Rand al’Thor</a></li>
+            <li><a href="perrin.html">Perrin Aybara</a></li>
+            <li><a href="mat.html">Matrim Cauthon</a></li>
+            <li><a href="moiraine.html">Moiraine Damodred</a></li>
+            <li><a href="mracni.html">Mračni</a></li>
+          </ul>
+        </li>
+
+    <li class="dropdown">
+      <a href="svjetovi.html">Svjetovi</a>
+
+      <ul class="dropdown-content">
+
+        <li><a href="svjetovi.html">Pregled svjetova</a></li>
+
+       <li class="dropdown nested">
+         <a href="aes-sedai.html">Aes Sedai</a>
+         <a href="tar-valon.html">Tar Valon</a>
+          <a href="one-power.html">One Power</a>
+          <ul class="dropdown-content">
+            <li><a href="saidar.html">Saidar</a></li>
+            <li><a href="saidin.html">Saidin</a></li>
+          </ul>
+        </li>
+        <li class="dropdown nested">
+          <a href="svjetovi-nacije.html">Nacije</a>
+          <ul class="dropdown-content">
+            <li><a href="andor.html">Andor</a></li>
+            <li><a href="seanchan.html">Seanchan</a></li>
+            <li><a href="aiel.html">Aiel</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </li>
+
+    <li><a href="o-projektu.html">O projektu</a></li>
+
+  </ul>
+</nav>
+
+<header class="knjige-header">
+  <h1>Andor</h1>
+  <p>Kraljevstvo lavice - Caemlyn i tradicija nasljeđa kroz Kraljicu</p>
+</header>
+
+<main class="lik-container" data-section="svjetovi">
+
+  <article class="lik-tekst">
+
+    <section class="tar-hero">
+      <div class="tar-badge">
+        <span class="dot"></span>
+        <span>Srce zapadne politike</span>
+      </div>
+      <h2>Andor između dvora i cesta</h2>
+      <p>
+        Andor je poznat po snažnoj monarhiji i važnim trgovačkim rutama.
+        Caemlyn kao središte moći često privlači intrige i savezništva.
+      </p>
+      <p class="naglasak">Lavica na stijegu nije samo simbol - nego poruka.</p>
+    </section>
+
+    <h2>Ključne značajke</h2>
+
+    <section class="nation-flip-grid" aria-label="Andor kartice">
+      <a class="nation-flip-card" href="#vojska">
+        <div class="nation-flip-inner">
+          <div class="nation-flip-front">
+            <h3>Vojska</h3>
+            <p>Red + disciplina</p>
+          </div>
+          <div class="nation-flip-back" id="vojska">
+            <strong>Andorska garda</strong>
+            <p>Zaštita prijestolnice i stabilnosti - posebno u krizama.</p>
+          </div>
+        </div>
+      </a>
+
+      <a class="nation-flip-card" href="#dvor">
+        <div class="nation-flip-inner">
+          <div class="nation-flip-front">
+            <h3>Dvor</h3>
+            <p>Intrige i savezi</p>
+          </div>
+          <div class="nation-flip-back" id="dvor">
+            <strong>Caemlyn</strong>
+            <p>Mjesto gdje informacije vrijede koliko i čelik.</p>
+          </div>
+        </div>
+      </a>
+
+      <a class="nation-flip-card" href="#trgovina">
+        <div class="nation-flip-inner">
+          <div class="nation-flip-front">
+            <h3>Trgovina</h3>
+            <p>Putovi i carine</p>
+          </div>
+          <div class="nation-flip-back" id="trgovina">
+            <strong>Rute</strong>
+            <p>Andor živi od prometa robe i kontrole prijelaza.</p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <div class="nation-rot">
+      <div class="nation-rot__inner" style="--quantity: 3;">
+        <figure class="nation-rot__card" style="--index:0;">
+          <img src="slike/nacije/caemlyn.webp" alt="Caemlyn">
+          <figcaption>Caemlyn</figcaption>
+        </figure>
+
+        <figure class="nation-rot__card" style="--index:1;">
+          <img src="slike/nacije/stijeg.webp" alt="Stijeg">
+          <figcaption>Stijeg</figcaption>
+        </figure>
+
+        <figure class="nation-rot__card" style="--index:2;">
+          <img src="slike/nacije/putevi.webp" alt="Putovi">
+          <figcaption>Putovi</figcaption>
+        </figure>
+      </div>
+    </div>
+
+  </article>
+
+  <aside class="infobox" data-type="infobox-lik">
+    <img src="slike/nacije/andor.webp" alt="Andor">
+    <table>
+      <thead><tr><th colspan="2">Andor</th></tr></thead>
+      <tbody>
+        <tr><th>Prijestolnica</th><td>Caemlyn</td></tr>
+        <tr><th>Vlast</th><td>Monarhija (Kraljica)</td></tr>
+        <tr><th>Simbol</th><td>Lavica</td></tr>
+        <tr><th>Napomena</th><td>Politički čvor regije</td></tr>
+      </tbody>
+    </table>
+  </aside>
+
+</main>
+
+<footer>
+  <p>Arhiva Aes Sedai | Izradio fan svijeta svjetlosti 🔥</p>
+</footer>
+
+</body>
+</html>

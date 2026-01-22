@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O projektu - Kolo vremena fan stranica</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="main-nav" class="secondary-nav">
+  <a href="index.html" class="logo">
+    <img src="slike/logo.png" alt="Arhiva Aes Sedai">
+    <span>Arhiva Aes Sedai</span>
+  </a>
+
+  <ul class="nav-links">
+
+    <li>
+      <a href="index.html">Početna</a>
+    </li>
+
+    <li class="dropdown">
+      <a href="knjige.html">Knjige</a>
+      <ul class="dropdown-content">
+        <li><a href="oko-svijeta.html">Oko svijeta</a></li>
+        <li><a href="veliki-lov.html">Veliki lov</a></li>
+        <li><a href="ponovorodeni-zmaj.html">Ponovorođeni Zmaj</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+          <a href="likovi.html">Likovi</a>
+          <ul class="dropdown-content">
+            <li><a href="rand.html">Rand al’Thor</a></li>
+            <li><a href="perrin.html">Perrin Aybara</a></li>
+            <li><a href="mat.html">Matrim Cauthon</a></li>
+            <li><a href="moiraine.html">Moiraine Damodred</a></li>
+            <li><a href="mracni.html">Mračni</a></li>
+          </ul>
+        </li>
+
+    <li class="dropdown">
+      <a href="svjetovi.html">Svjetovi</a>
+
+      <ul class="dropdown-content">
+
+        <li><a href="svjetovi.html">Pregled svjetova</a></li>
+
+       <li class="dropdown nested">
+         <a href="aes-sedai.html">Aes Sedai</a>
+         <a href="tar-valon.html">Tar Valon</a>
+          <a href="one-power.html">One Power</a>
+          <ul class="dropdown-content">
+            <li><a href="saidar.html">Saidar</a></li>
+            <li><a href="saidin.html">Saidin</a></li>
+          </ul>
+        </li>
+        <li class="dropdown nested">
+          <a href="svjetovi-nacije.html">Nacije</a>
+          <ul class="dropdown-content">
+            <li><a href="andor.html">Andor</a></li>
+            <li><a href="seanchan.html">Seanchan</a></li>
+            <li><a href="aiel.html">Aiel</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </li>
+
+    <li><a href="o-projektu.html">O projektu</a></li>
+
+  </ul>
+</nav>
+
+  <header class="projekt-header">
+    <h1>O projektu</h1>
+    <p>Fan stranica posvećena svijetu Roberta Jordana</p>
+  </header>
+
+  <section class="projekt-info">
+    <div class="projekt-container">
+      <img src="slike/o-projektu.jpg" alt="Robert Jordan i knjige" class="projekt-img">
+
+      <div class="projekt-text">
+        <h2 class="centrirani-naslov">Fan stranica “Arhiva Aes Sedai”</h2>
+        <p>
+          Ovaj projekt izrađen je kao osobni i edukativni rad s ciljem stvaranja moderne fan stranice posvećene serijalu
+          <strong>Kolo vremena</strong> (engl. <em>The Wheel of Time</em>), koji je napisao američki autor
+          <strong>Robert Jordan</strong>.
+        </p>
+        <p>
+          Cilj projekta je izraditi internetsku stranicu na hrvatskom jeziku posvećenu serijalu Kolo vremena. Namjera je približiti ovaj bogati i složeni svijet 
+          postojećim obožavateljima, ali i onima koji će ga tek otkriti. Stranica će sadržavati sažetke knjiga, opise likova, zanimljivosti te informacije o autoru i 
+          serijskoj adaptaciji, stvarajući središnje mjesto za sve ljubitelje ovog epskog fantasyja. 
+        </p>
+        <p>
+          Stranica sadrži više sekcija: početnu, pregled knjiga, pojedinačne knjige, svjetove i likove, te informativnu stranicu o samom projektu. U skoroj budućnosti planira
+           se izrada interaktivne mape svijeta Kola vremena, na kojoj će čitatelji moći pratiti složenu radnju i putovanja likova kroz vizualni prikaz, čime će se iskustvo 
+           čitanja dodatno produbiti i obogatiti. 
+        </p>
+        <p>
+          <strong>Plan za budućnost ovog projekta:</strong>
+        </p>
+        <ul>
+          <li>INTERAKTIVNA KARTA SVIJETA - vremenski pregled radnje kroz putovanje prema različitim mjestima</li>
+          <li>RJEČNIK - popis svih pojmova i naziva korištenih u knjigama</li>
+          <li>Istinski izvor (<em>Saidar</em> i <em>Saidin</em>) - pregled upotrebe istiskog izvora i razlike</li>
+        </ul>
+        
+        <p>
+          Ovaj projekt predstavlja spoj ljubavi prema književnosti i želje za učenjem web tehnologija.  
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <form id="povratne-informacije" name="forma-povratne-informacije">
+    <fieldset>
+      <legend>Povratne informacije o projektu</legend>
+
+      <label for="ime">Ime i prezime:</label>
+      <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime">
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Unesite adresu e-pošte">
+
+      <label for="knjiga">Omiljena knjiga:</label>
+      <select id="knjiga" name="knjiga">
+        <option value="oko-svijeta">Oko svijeta</option>
+        <option value="veliki-lov">Veliki lov</option>
+        <option value="ponovorodeni-zmaj">Ponovorođeni Zmaj</option>
+      </select>
+
+      <label for="lik">Omiljeni lik:</label>
+      <input list="likovi" id="lik" name="lik" placeholder="Odaberite lika">
+      <datalist id="likovi">
+        <option value="Rand al’Thor">
+        <option value="Perrin Aybara">
+        <option value="Matrim Cauthon">
+        <option value="Moiraine Damodred">
+        <option value="Mračni">
+      </datalist>
+
+      <label for="ocjena">Ocjena projekta (1-5):</label>
+      <input type="number" id="ocjena" name="ocjena" placeholder="1-5" min="1" max="5">
+
+      <button type="submit" id="posalji" value="Pošalji">Pošalji</button>
+    </fieldset>
+  </form>
+
+  <footer>
+    <p>Arhiva Aes Sedai | Izradio fan svijeta svjetlosti 🔥</p>
+  </footer>
+
+</body>
+</html>
